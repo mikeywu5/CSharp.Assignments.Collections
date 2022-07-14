@@ -76,7 +76,7 @@ namespace Enumerables
         }
 
         /// <summary>
-        /// Using a foreach loop and yield return, the method will return a rotated enumerable. The enumerable will be shift left by one position.
+        /// Using a foreach loop and yield return, the method will return a rotated-left enumerable collection. The values in the enumerable will be shifted left by one position.
         /// </summary>
         /// <param name="a"></param>
         /// <param name="rotatedLeft">true to rotate left by one place, false to rotate right by one place.</param>
