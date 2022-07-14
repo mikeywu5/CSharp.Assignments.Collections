@@ -76,12 +76,12 @@ namespace Enumerables
         }
 
         /// <summary>
-        /// Using a foreach loop and yield return, the method will return a rotated enumerable. If rotatedLeft is true, then the enumerable will be rotated left by one position. If rotatedLeft is false, then the enumerable modified will be rotated right by one position.
+        /// Using a foreach loop and yield return, the method will return a rotated enumerable. The enumerable will be shift left by one position.
         /// </summary>
         /// <param name="a"></param>
         /// <param name="rotatedLeft">true to rotate left by one place, false to rotate right by one place.</param>
         /// <returns>an enumerable</returns>
-        public IEnumerable<int> Rotate(IEnumerable<int> a, bool rotatedLeft)
+        public IEnumerable<int> RotateLeft(IEnumerable<int> a)
         {
             throw new NotImplementedException();
         }
